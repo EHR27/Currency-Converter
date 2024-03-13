@@ -99,3 +99,23 @@ form button{
     cursor: pointer;
     background: #4d8dee;
 }
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding: 20px; /* Reduce padding on small screens */
+    }
+
+    .wrapper header {
+        font-size: 24px; /* Reducing header size on small screens */
+    }
+
+    form p {
+        font-size: 16px; /* Reducing form text size on small screens */
+    }
+
+    form input,
+    .select-box select {
+        font-size: 14px; /* Reduced font size in input fields and selectors on small screens */
+    }
+}
